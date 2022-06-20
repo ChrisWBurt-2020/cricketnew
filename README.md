@@ -1,4 +1,9 @@
 # Cricket Scorekeeper
+<p>
+  <a href="https://online.visualstudio.com/environments/new?name=My%20Project&repo=username/reponame">
+    <img src="https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge">
+  </a>
+</p>
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
