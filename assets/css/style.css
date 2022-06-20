@@ -1,78 +1,88 @@
 * {
-  padding: 0;
-  margin: 0;  
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  background-image: url("../images/blackboard2.jpeg");
-  font-family: 'Fredericka the Great', cursive;
+    background-image: url("../images/eddie.jpg");
+    font-family: 'Fascinate', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width
 }
+
 
 /* buttons used for scoring/adding dart */
+
 .button {
-  border-radius: 20px;
-  border: solid white 2px;
-  color: white;
-  background-color: green;
-  text-align: center;
-  padding: 13px;
-  font-size: x-large;
+    border-radius: 20px;
+    border: solid white 2px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 13px;
+    font-size: x-large;
+    width: 50%;
+    opacity: 2.0;
 }
 
-#lScore, #rScore {
-  background-color: white;
-  border: 3px solid black;
-  text-align: center;
-  border-radius: 51px;
-  font-size: x-large;
+#lScore,
+#rScore {
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 51px;
+    font-size: x-large;
 }
 
 #help {
-  background-color: #001E44;
-  border: 2px solid white;
-  border-radius: 30px;
+    background-color: #001E44;
+    border: 2px solid white;
+    border-radius: 30px;
 }
 
 #addsub {
-  background-color: green;
-  border: 2px solid white;
-  border-radius: 30px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 30px;
 }
 
 .dart {
-  border: white solid 2px;
-  border-radius: 1px;
-  color: white;
-  display: inline-flex!important;
-  align-items: center;
-  justify-content: space-around;
+    border: white solid 2px;
+    border-radius: 1px;
+    color: white;
+    display: inline-flex!important;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .number {
-  border: white solid 2px;
-  border-radius: 1px;
-  font-size: x-large;
-  color: white;
-  display: inline-flex!important;
-  align-items: center;
-  justify-content: space-around;
+    border: white solid 2px;
+    border-radius: 1px;
+    font-size: xxx-large;
+    color: white;
+    display: inline-flex!important;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .toprow {
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.addSub, .col-3 {
-  display: inline-flex!important;
-  align-items: center;
-  justify-content: space-around;
+.addSub,
+.col-3 {
+    display: inline-flex!important;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.help, .col-3 {
-  display: inline-flex!important;
-  align-items: center;
-  justify-content: space-around;
+.help,
+.col-3 {
+    display: inline-flex!important;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .turn {
@@ -82,22 +92,27 @@ body {
 }
 
 #refresh {
-  background-color: #ffcc33;
+    background-color: #ffcc33;
 }
 
 #p1 {
-  background-color: #500000;
-  padding: 10px;
-  margin-top: 10px;
+    background-color: #500000;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 #p2 {
-  background-color: #BF5700;
-  padding: 10px;
-  margin-top: 10px;
+    background-color: #BF5700;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .swal-text {
-  font-size: 1.6rem !important;
-  font-family: Georgia, serif !important;
+    font-size: 1.6rem !important;
+    font-family: Georgia, serif !important;
+}
+
+.dartRows {
+    background-color: black;
+    opacity: .50;
 }
