@@ -8,7 +8,7 @@ body {
     font-family: 'Fascinate', cursive;
     background-repeat: no-repeat;
     background-size: cover;
-    width
+    width: 100%;
 }
 
 
@@ -22,7 +22,7 @@ body {
     text-align: center;
     padding: 13px;
     font-size: x-large;
-    width: 50%;
+    width: 80%;
     opacity: 2.0;
 }
 
@@ -32,7 +32,7 @@ body {
     border: 3px solid black;
     text-align: center;
     border-radius: 51px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 #help {
@@ -57,9 +57,9 @@ body {
 }
 
 .number {
-    border: white solid 2px;
-    border-radius: 1px;
-    font-size: xxx-large;
+    /* border: white solid 2px;
+    border-radius: 1px; */
+    font-size: x-large;
     color: white;
     display: inline-flex!important;
     align-items: center;
