@@ -20,11 +20,13 @@
 
 <body>
     <div class="container">
+
         <!-- Top row -->
         <div class="row g-0 col-12 toprow">
             <div class="col-3" id="lScore">Score</div>
             <div class="col-2 addSub"><button class="button fa-solid fa-plus fa-fade" id="addsub"></button></div>
             <!-- <div class="col-2"><iframe width="200" height="200" src="https://www.youtube.com/embed/H5jlBW4ncD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div> -->
+            <button is="google-cast-button fa-cast"></button>
             <div class="col-2 help"><button class="button fa-solid fa-question" id="help"></button></div>
             <!-- <div class="col-2 addSub"><button class="button fa-solid fa-plus" id="add"></button></div> -->
             <div class="col-3" id="rScore">Score</div>
@@ -101,6 +103,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script src='https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1'></script>
+
 </body>
 
 </html>
